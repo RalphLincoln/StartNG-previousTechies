@@ -1,0 +1,60 @@
+.navbar,.header{
+    background: #F2EBE9;
+    opacity: 0.6;
+}
+/*for spaces above and below containers*/
+.cont1,.cont2,.cont3,.cont4,.cont5{
+    margin-top: 90px;
+}
+/*for the matter t the right of every pic*/
+/*for the image of background to the matter*/
+@media(max-width:600px){
+.cont-matter{
+    margin-top: 40px; 
+}
+}
+@media(min-width:600px){
+    .cont-matter{
+        margin-top: 120px;
+        margin-left: -30px;
+    }
+    }
+    /*for the image blue color*/
+    @media(min-width: 600px){
+        .back1{
+       width: 630px;
+       height: 305px;
+        }
+    }
+    @media(max-width: 600px){
+        .back1{
+            width: 300px;
+            height: 305px;
+        }
+    }
+    /*for the text*/
+    @media(max-width: 600px){
+        .matt{
+            margin-top: -250px;
+        }
+    }
+    @media(min-width: 600px){
+        .matt{
+            margin-top: -350px;
+            margin-left: 150px; 
+        }
+    }
+/*for the double quotes*/
+@media(max-width: 600px){
+    .quotes{
+        margin-top: -520px; 
+        margin-left: 5px;
+    }    
+}
+@media(min-width: 600px){
+    .quotes{
+        margin-top: -520px; 
+        margin-left: 475px;
+    }
+    
+}
